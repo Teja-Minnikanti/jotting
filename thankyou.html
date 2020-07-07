@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thank you-Jotting</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+
+      body {
+        font-family: 'Francois One', sans-serif;
+        background: linear-gradient(90deg, #bbb737, #dce196);
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+
+      button {
+        font-family: 'Francois One', sans-serif;
+      }
+
+      .logo-div {
+        height: 17vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+      }
+
+      .thankyou-grid {
+        height: 83vh;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+      }
+
+      .thankyou-girl-div {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+      }
+
+      .main-content {
+        margin-left: 10%;
+        align-self: center;
+      }
+
+      .main-content h1 {
+        color: white;
+        font-size: 100px;
+        line-height: 70px;
+        margin-bottom: 50px;
+        text-shadow: rgba(0, 0, 0, 0.575) 2px 2px 1px;
+      }
+
+      .main-content p {
+        font-family: 'Josefin Sans', sans-serif;
+        color: #414037;
+        font-size: 40px;
+        letter-spacing: 1px;
+        line-height: 26px;
+      }
+
+      .main-signup-btn {
+        border: white 2px solid;
+        background-color: #bdba3d;
+        width: 120px;
+        height: 50px;
+        margin-top: 30px;
+        border-radius: 10px;
+        font-size: 23px;
+        color: white;
+        box-shadow: rgba(0, 0, 0, 0.575) 0px 3px 3px;
+        transition: all 0.3s ease-in-out;
+        text-shadow: rgba(0, 0, 0, 0.575) 1.5px 1.5px 1px;
+        outline: none;
+        cursor: pointer;
+      }
+      .main-signup-btn:hover {
+        transform: scale(1.1);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="logo-div">
+        <a href="index.html">
+          <img src="Source/jotting.svg" alt="logo" width="90%" />
+        </a>
+      </div>
+
+      <div class="thankyou-grid">
+        <div class="main-content">
+          <h1>
+            Thank you
+          </h1>
+          <p>
+            To explore more!
+          </p>
+          <a href="index.html">
+            <button class="main-signup-btn">Click Here</button>
+          </a>
+        </div>
+        <div class="thankyou-girl-div">
+          <img
+            src="source/women-1.png"
+            alt="Thankyou-girl"
+            width="70.5%"
+            class="thankyou-girl"
+          />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

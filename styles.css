@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Josefin+Sans&family=Sedgwick+Ave+Display&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Francois One', sans-serif;
+  background: linear-gradient(90deg, #bbb737, #dce196);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+button {
+  font-family: 'Francois One', sans-serif;
+}
+
+header {
+  width: 90%;
+  height: 10vh;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  transition: 0.3s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10 px;
+}
+
+.nav-link {
+  color: #4e4d42;
+  text-decoration: none;
+  margin-right: 50px;
+  font-size: 18px;
+  transition: 0.3s ease-in-out;
+}
+.nav-link:hover {
+  font-size: 25px;
+}
+
+.divider {
+  height: 30px;
+  width: 1px;
+  background-color: #4e4d42;
+}
+
+.signup-btn {
+  border: white 2px solid;
+  background-color: #dbdf92;
+  width: 90px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #4e4d42;
+  box-shadow: rgba(0, 0, 0, 0.473) 1px 3px 3px;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+}
+.signup-btn:hover {
+  transform: scale(1.1);
+}

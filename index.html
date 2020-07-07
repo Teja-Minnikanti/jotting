@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jotting</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .grid-div {
+        height: 90vh;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+      }
+      .main-content {
+        margin-left: 10%;
+        align-self: center;
+      }
+
+      .main-content h1 {
+        color: white;
+        font-size: 60px;
+        line-height: 70px;
+        margin-bottom: 30px;
+        text-shadow: rgba(0, 0, 0, 0.575) 2px 2px 1px;
+      }
+
+      .main-content p {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 26px;
+      }
+
+      .main-signup-btn {
+        border: white 2px solid;
+        background-color: #bdba3d;
+        width: 120px;
+        height: 50px;
+        margin-top: 30px;
+        border-radius: 10px;
+        font-size: 23px;
+        color: white;
+        box-shadow: rgba(0, 0, 0, 0.575) 0px 3px 3px;
+        transition: all 0.3s ease-in-out;
+        text-shadow: rgba(0, 0, 0, 0.575) 1.5px 1.5px 1px;
+        outline: none;
+      }
+      .main-signup-btn:hover {
+        transform: scale(1.1);
+      }
+
+      .img-div {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      }
+      .main-img {
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>
+        <a href="#">
+          <img src="Source/jotting.svg" alt="logo" class="logo" />
+        </a>
+      </div>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+          <li><a href="help.html" class="nav-link">Help</a></li>
+          <li class="divider nav-link"></li>
+          <li><a href="login.html" class="nav-link">Log In</a></li>
+          <li>
+            <a href="signup.html">
+            <button class="signup-btn">Sign Up</button></li>
+          </a>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="main-sec">
+        <div class="grid-div">
+          <div class="main-content">
+            <h1>
+              The Simplest way to
+              <br />
+              keep notes
+            </h1>
+            <p>
+              All your notes, synced on all your devices.
+              <br />
+              Get Jotting now for IOS, Android, Mac, Windows,
+              <br />
+              Linux, or in your browser.
+            </p>
+            <a href="signup.html">
+              <button class="main-signup-btn">Sign Up</button>
+            </a>
+          </div>
+          <div class="img-div">
+            <img
+              src="Source/man.png"
+              alt="Man with laptop"
+              width="80%"
+              class="main-img"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
